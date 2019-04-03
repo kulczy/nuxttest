@@ -1,5 +1,10 @@
 <template>
   <div>
+    <el-row>
+      <nuxt-link to="/"><el-button>Home page</el-button></nuxt-link>
+      <nuxt-link to="/about"><el-button>About</el-button></nuxt-link>
+      <nuxt-link to="/contact"><el-button>Contact</el-button></nuxt-link>
+    </el-row>
     <nuxt />
   </div>
 </template>
