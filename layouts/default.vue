@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-navbar type="dark" variant="dark">
+      <b-navbar type="light" variant="white">
         <b-navbar-nav>
           <li class="nav-item">
             <nuxt-link to="/" class="nav-link">Home page</nuxt-link>
@@ -15,8 +15,11 @@
         </b-navbar-nav>
       </b-navbar>
     </div>
-
-    <nuxt/>
+    <div class="container mt-4">
+      <div class="row">
+        <nuxt/>
+      </div>
+    </div>
   </div>
 </template>
 
