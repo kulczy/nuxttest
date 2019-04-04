@@ -24,17 +24,23 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["element-ui/lib/theme-chalk/index.css"],
+  css: ["@/assets/scss/index.scss"],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["~/plugins/element"],
+  plugins: [],
 
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['bootstrap-vue/nuxt'],
+
+  bootstrapVue: {
+    bootstrapCSS: false, // or `css`
+    bootstrapVueCSS: false ,// or `bvCSS`
+    componentPlugins: ['Navbar'],
+  },
 
   /*
    ** Build configuration
