@@ -1,6 +1,6 @@
 <template>
   <section>
-    Index
+    <h1>Index</h1>
   </section>
 </template>
 

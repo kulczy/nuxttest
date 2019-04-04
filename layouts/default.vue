@@ -3,15 +3,15 @@
     <div>
       <b-navbar type="dark" variant="dark">
         <b-navbar-nav>
-          <nuxt-link to="/">
-            <span>Home page</span>
-          </nuxt-link>
-          <nuxt-link to="/about">
-            <span>About</span>
-          </nuxt-link>
-          <nuxt-link to="/contact">
-            <span>Contact</span>
-          </nuxt-link>
+          <li class="nav-item">
+            <nuxt-link to="/" class="nav-link">Home page</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/about" class="nav-link">About</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
+          </li>
         </b-navbar-nav>
       </b-navbar>
     </div>

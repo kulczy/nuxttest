@@ -7,6 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: { lang: "en-US" },
     title: pkg.name,
     meta: [
       { charset: "utf-8" },
@@ -34,12 +35,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['bootstrap-vue/nuxt'],
+  modules: ["bootstrap-vue/nuxt"],
 
   bootstrapVue: {
     bootstrapCSS: false, // or `css`
-    bootstrapVueCSS: false ,// or `bvCSS`
-    componentPlugins: ['Navbar'],
+    bootstrapVueCSS: false, // or `bvCSS`
+    componentPlugins: ["Navbar"]
   },
 
   /*
