@@ -12,6 +12,12 @@
           <li class="nav-item">
             <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
           </li>
+          <li class="nav-item">
+            <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/todos" class="nav-link">Todos</nuxt-link>
+          </li>
         </b-navbar-nav>
       </b-navbar>
     </div>
